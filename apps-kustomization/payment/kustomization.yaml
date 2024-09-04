@@ -1,0 +1,3 @@
+resources:
+- base/payment-dep.yaml
+- base/payment-svc.yaml

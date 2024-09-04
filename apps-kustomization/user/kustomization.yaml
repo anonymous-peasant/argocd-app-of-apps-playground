@@ -1,0 +1,5 @@
+resources:
+- base/user-db-dep.yaml
+- base/user-db-svc.yaml
+- base/user-dep.yaml
+- base/user-svc.yaml

@@ -1,0 +1,3 @@
+resources:
+- base/queue-master-dep.yaml
+- base/queue-master-svc.yaml

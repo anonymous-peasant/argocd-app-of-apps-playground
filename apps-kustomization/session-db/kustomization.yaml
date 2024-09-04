@@ -1,0 +1,3 @@
+resources:
+- base/session-db-dep.yaml
+- base/session-db-svc.yaml

@@ -1,0 +1,3 @@
+resources:
+- base/shipping-dep.yaml
+- base/shipping-svc.yaml

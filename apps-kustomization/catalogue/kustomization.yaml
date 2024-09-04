@@ -1,0 +1,4 @@
+resources:
+- base/catalogue-db-dep.yaml
+- base/catalogue-db-svc.yaml
+- base/catalogue-dep.yaml
