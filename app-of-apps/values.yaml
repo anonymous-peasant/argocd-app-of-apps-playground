@@ -10,11 +10,13 @@ spec:
 
 # HIGHLIGHT
 applications:
-  - name: assets
   - name: carts
-  - name: catalog
-  - name: checkout
+  - name: catalogue
+  - name: frontend
   - name: orders
-  - name: other
+  - name: payment
+  - name: queue-master
   - name: rabbitmq
-  - name: ui
+  - name: session-db
+  - name: shipping
+  - name: user
