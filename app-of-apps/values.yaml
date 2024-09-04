@@ -7,6 +7,22 @@ spec:
     repoURL: https://github.com/anonymous-peasant/argocd-app-of-apps-playground.git
     # HIGHLIGHT
     targetRevision: main
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - Validate=false
+      - CreateNamespace=true
+      - PrunePropagationPolicy=foreground
+      - PruneLast=true
+      - RespectIgnoreDifferences=true
+    retry:
+      limit: 10
+      backoff:
+        duration: 10s
+        factor: 2
+        maxDuration: 3m
 
 # HIGHLIGHT
 applications:
